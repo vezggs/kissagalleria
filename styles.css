@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.galleria {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.kuvat {
+    
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.kuvat img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
